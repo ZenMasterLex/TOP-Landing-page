@@ -31,14 +31,16 @@ ul {
     align-items: center;
     gap: 5px;
     list-style: none;
+    padding-right: 18%;
 }
 
 .hero{
     background-color: #1F2937;
     display: flex;
     padding: 10px 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
     
     
 }
@@ -58,12 +60,15 @@ ul {
 
 }
 .hero-left-side{
-    flex: 1 1 auto;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     max-width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
     
 }
 
@@ -71,12 +76,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center; 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
 }
 img{
     display: flex;
     
     max-width: 90%;
-    max-height: 80% ;
+    max-height: 80%;
     flex: 1 1 auto;
     
     
