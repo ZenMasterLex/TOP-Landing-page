@@ -86,9 +86,8 @@ li{
     flex-shrink: 1;
     flex-basis: 200px;
 }
-img{
+img {
     display: flex;
-    
     max-width: 90%;
     max-height: 80%;
     flex: 1 1 auto;
@@ -110,7 +109,9 @@ img{
 }
 
 .section1 {
-    background-color: aquamarine;
+    background-color: rgb(165, 90, 87);
+    margin: 0px;
+    padding: 0px;
 }
 .section2 {
     background-color: rgb(54, 36, 214);
