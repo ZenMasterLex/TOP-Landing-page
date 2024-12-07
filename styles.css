@@ -1,5 +1,6 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 
@@ -17,20 +18,34 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    max-height: 50px;
+   
+    max-height: 70px;
+    padding-top: 6px;
 }
 
 .logo{
     color:  #F9FAF8;
     font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex:1 1 auto;
+    padding-left: 20px;
 }
 
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex:1 1 auto;
+    padding-right: 20px;
+    
+}
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
     list-style: none;
     padding-right: 3%;
 }
@@ -85,8 +100,9 @@ li{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
+    
 }
-img {
+.hero-img{
     display: flex;
     max-width: 90%;
     max-height: 80%;
@@ -106,13 +122,51 @@ img {
     justify-content: center;
     align-items: center;
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-bottom: 8px;
 }
 
 .section1 {
-    background-color: rgb(165, 90, 87);
-    margin: 0px;
-    padding: 0px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
+
+.information-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.information-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 8px;
+    flex-wrap: wrap;
+}
+
+.img-text {
+    text-align: center;
+}
+
+.center-img{
+    
+    gap: 5px;
+    max-width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 .section2 {
     background-color: rgb(54, 36, 214);
 }
