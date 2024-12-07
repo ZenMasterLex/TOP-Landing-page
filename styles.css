@@ -79,7 +79,7 @@ li{
     max-width: 80%;
     margin-top: 0;
     margin-right: 0;
- padding-right: 0;
+    padding-right: 0;
 
 
 
@@ -116,6 +116,11 @@ li{
     flex: 1 1 auto;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.hero-placeholder {
+    position: absolute;
 }
     
 
@@ -196,7 +201,7 @@ li{
 }
 
 .section2 {
-    background-color: rgb(54, 36, 214);
+    background-color: #E5E7EB;
 }
 .section3 {
     background-color: rgb(214, 35, 35);
