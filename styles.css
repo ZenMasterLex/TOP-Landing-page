@@ -133,6 +133,8 @@ li{
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-right: 10px;    
+    padding-left: 10px;
     
 }
 
@@ -158,12 +160,18 @@ li{
     
     column-gap: 8px;
     flex-wrap: wrap;
-    
+    gap: 5px;
 }
 
 .img-text {
     text-align: center;
-    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+
 }
 
 .center-img{
