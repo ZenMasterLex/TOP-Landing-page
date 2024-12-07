@@ -121,9 +121,14 @@ li{
 
 .hero-placeholder {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 255, 255, 0.5);
     margin-left: 40px;
     margin-right: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
     
 
@@ -201,6 +206,7 @@ li{
     max-width: 200px;
     margin: 5px;
     border-radius: 5px;
+    border: 2px solid #3882f6;
 }
 
 .section2 {
