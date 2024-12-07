@@ -121,6 +121,9 @@ li{
 
 .hero-placeholder {
     position: absolute;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 255, 255, 0.5);
+    margin-left: 40px;
+    margin-right: 40px;
 }
     
 
