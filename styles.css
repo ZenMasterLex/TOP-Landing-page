@@ -129,6 +129,7 @@ li{
     margin-right: 40px;
     padding-left: 5px;
     padding-right: 5px;
+    color: white;
 }
     
 
@@ -211,6 +212,25 @@ li{
 
 .section2 {
     background-color: #E5E7EB;
+    padding: 10% 10%;
+    
+}
+
+.quote {
+    padding-bottom: 2%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    
+}
+
+.by-whom {
+    text-align: end;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #1F2937;
 }
 .section3 {
     background-color: rgb(214, 35, 35);
